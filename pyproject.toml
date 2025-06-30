@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "streamlit-system"
+version = "0.1.0"
+description = ""
+authors = ["Marton Padilha <martonpad@gmail.com>"]
+readme = "README.md"
+packages = [{include = "streamlit_system", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.46.1"
+bcrypt = "^4.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
